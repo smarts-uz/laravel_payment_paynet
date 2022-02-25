@@ -1,0 +1,28 @@
+{
+    "name": "teamprodev/payment-paynet",
+    "description": "Laravel Payment Package with Paynet",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Payment\\Paynet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AzizbekDev",
+            "email": "azizbek_muzaffarov@mail.ru"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Payment\\Paynet\\PaynetServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
